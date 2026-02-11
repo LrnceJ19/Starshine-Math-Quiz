@@ -184,6 +184,7 @@ logOut.onclick = () => {
   
   homeNav.style.animation = "fadeOut 0.5s ease forwards";
   homeNav.style.display = "none";
+  homeNav.style.animation = "fadeIn 1s ease";
   document.getElementById("loginMenu").style.display = "flex";
   document.getElementById("loginMenu").style.animation = "fadeIn 1s ease forwards";
 }
